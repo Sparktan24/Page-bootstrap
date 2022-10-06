@@ -2,55 +2,41 @@
 
 # Project Name
 
-> Description the project.
+> Portfolio project in Bootstrap
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- Bootstrap
+- CSS
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+Open up Github. Clone this repository from GitHub by copying the HTTPS address. On your VSCode hit "Open a new repository" and paste the URL. Select the destination folder. All the files should be cloned to your local folder and are ready to be used.
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Git installed
+Code editor  (Visual Studio Code, Atom, etc.) (If you want to modify code).
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+Git clone the project
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sebalp100](https://github.com/sebalp100) 
+- LinkedIn: [Sebastian Martin](https://www.linkedin.com/in/sebastian-martin-956b2724a/) 
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Sparktan24](https://github.com/Sparktan24) 
+- Linkedin: [Jesus Molina](https://www.linkedin.com/in/jesus-molina-2b104424a/) 
 
 ## 🤝 Contributing
 
@@ -64,9 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Hat tip to anyone whose code was used Microverse 
 
 ## 📝 License
 
