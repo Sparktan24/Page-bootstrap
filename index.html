@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div class="container-fluid">
         <a class="navbar-brand ps-5 col-9" href="#">My Logo</a>
         <button
@@ -41,19 +41,22 @@
     </nav>
 
     <div class="container-fluid bg-dark has-bg-img">
-      <div class="has-bg-img">
-        <h1 class="text-warning">
-          Hey There.<br />
-          I'm Jesus
-        </h1>
-        <h2 class="text-light">I'm a Software Developer</h2>
-        <p class="text-light">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-
-        <img class="bg-img" src="images/Illustration-header.svg" />
+      <div class="row">
+        <div class="col has-bg-img">
+          <h1 class="text-warning mt-5 ms-5">
+            Hey There.<br />
+            I'm Jesus
+          </h1>
+          <h2 class="text-light mt-2 ms-5">I'm a Software Developer</h2>
+          <p class="text-light mt-2 ms-5">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
+        <div class="col">
+          <img class="bg-img" src="images/Illustration-header.svg" />
+        </div>
       </div>
     </div>
 
@@ -97,7 +100,7 @@
       </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center gx-0">
       <div class="card bg-dark text-white col-3 mt-5 mx-4 p-0">
         <img src="images\uber.svg" class="card-img" alt=" " />
         <div class="card-img-overlay mt-5">
@@ -191,7 +194,7 @@
       </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mb-5 gx-0">
       <div class="card bg-dark text-white col-3 mt-5 mx-4 p-0">
         <img src="images\uber.svg" class="card-img" alt=" " />
         <div class="card-img-overlay mt-5">
@@ -287,93 +290,118 @@
 
     <div class="bg-dark pt-5 ps-5">
       <h1 class="text-warning pt-5">About me</h1>
-      <p class="col-5 text-light">Hello I’m a software developer! I can help you build a product , 
-        feature or website Look through some of my work and experience! If you like 
-        what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <div class="pt-4">
-          <button type="button" class="btn btn-warning text-light">
-            See Project
-          </button>
-        </div>
+      <p class="col-5 text-light">
+        Hello I’m a software developer! I can help you build a product , feature
+        or website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <div class="pt-4">
+        <button type="button" class="btn btn-warning text-light">
+          Get My Resume
+        </button>
+      </div>
     </div>
 
     <div class="container-fluid text-light bg-dark pt-5 ps-5">
       <div class="row pb-3">
         <div class="col h3">
-          <img class="pe-1" src="images/rectangle.svg">Language
+          <img class="pe-1" src="images/rectangle.svg" />Language
         </div>
         <div class="col h3">
-          <img class="pe-1" src="images/square.svg">
+          <img class="pe-1" src="images/square.svg" />
           Frameworks
         </div>
         <div class="col h3">
-          <img class="pe-1" src="images/rectangle.svg">
+          <img class="pe-1" src="images/rectangle.svg" />
           Skills
         </div>
       </div>
 
       <div class="row pb-2">
-        <div class="col">
-          JavaScript
-        </div>
-        <div class="col">
-          bootstrap
-        </div>
-        <div class="col">
-          Codekit
-        </div>
+        <div class="col">JavaScript</div>
+        <div class="col">bootstrap</div>
+        <div class="col">Codekit</div>
       </div>
 
       <div class="row pb-2">
-        <div class="col">
-          Ruby
-        </div>
-        <div class="col">
-          Ruby on Rails
-        </div>
-        <div class="col">
-          GitHub
-        </div>
+        <div class="col">Ruby</div>
+        <div class="col">Ruby on Rails</div>
+        <div class="col">GitHub</div>
       </div>
 
       <div class="row pb-2">
-        <div class="col">
-          Html
-        </div>
-        <div class="col">
-          RSPec
-        </div>
-        <div class="col">
-          Codepen
-        </div>
+        <div class="col">Html</div>
+        <div class="col">RSPec</div>
+        <div class="col">Codepen</div>
       </div>
 
       <div class="row pb-2">
-        <div class="col">
-          CSS
-        </div>
-        <div class="col">
-          CapyBara
-        </div>
-        <div class="col">
-          Gitlab
-        </div>
+        <div class="col">CSS</div>
+        <div class="col">CapyBara</div>
+        <div class="col">Gitlab</div>
       </div>
 
-      <div class="row pb-2">
-        <div class="col">
-          
-        </div>
-        <div class="col">
-          Selenium
-        </div>
-        <div class="col">
-          Terminal
-        </div>
+      <div class="row pb-2 pb-5">
+        <div class="col"></div>
+        <div class="col">Selenium</div>
+        <div class="col">Terminal</div>
       </div>
-      
     </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col pt-5">
+          <p class="display-5">
+            <strong>
+              I'm always interested in hearing about new projects, so if you'd
+              like to chat please get in touch.
+            </strong>
+          </p>
+        </div>
+        <div class="col">
+          <div class="form-floating mb-3 mt-5">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Full Name"
+            />
+            <label for="floatingInput">Full Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+              style="height: 114px"
+            ></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <button class="btn text-light btn-warning mt-4 mb-5" type="submit">
+            Get in touch
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row mb-3 justify-content-center">
+        <img style="width: 45px" src="images\Cat.svg" alt="" />
+        <img style="width: 45px" src="images\Linkedin.svg" alt="" />
+        <img style="width: 45px" src="images\Hand.svg" alt="" />
+        <img style="width: 45px" src="images\Twitter.svg" alt="" />
+        <img style="width: 45px" src="images\M.svg" alt="" />
+      </div>
+    </div>
     <script src="bootstrap-5.0.2-dist\js\bootstrap.js"></script>
   </body>
 </html>
